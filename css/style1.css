@@ -6,7 +6,7 @@
 
 html,
 body {
-  background: linear-gradient(to right, #007991, #78ffd6);
+  background: linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -18,14 +18,14 @@ body {
 .board {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #78ffd6;
+  background-color: #D76D77;
   padding: 6px;
 }
 .field {
   width: 20px;
   height: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: #ffffffcc;
+  border: 1px solid #000000cc;
   padding: 70px;
   text-align: center;
   font-size: 100px;
